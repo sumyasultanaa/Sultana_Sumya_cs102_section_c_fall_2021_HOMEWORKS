@@ -1,16 +1,18 @@
 #include <stdio.h>
 
-int main(void) {
-def minCoins(coins, m, V)
-table = [0 for i in range(V+1)] table [0] = 0
-for i in range (1, V + 1): table[i] = sys.maxsize
-for i in range (1, V + 1): for j in range(m):
-if (coins[j] <= i):
-sub_res _ table[i - coins[j]]
-if (sub_res ! = sys.maxsize and sub_res + 1 < table[i]: table[i] = sub_res + 1
-if table[V] = sys.maxsize
-return -1;
+int main (void) {
+/* declaring integer variable to store height and width */
+int height, width ;
+/* taking height and width as input from the user */ 
+	printf("Enter the height of the rectangle: ");
+scanf("%d",&height);
+printf("Enter the width of the rectangle: ");
+scanf("%d",&width);
+/* calculating the perimeter of the rectangle */
+int perimeter = 2 * (height + width);
+/* displaying the perimeter of the rectangle */ 
+printf("\nPerimeter of th rectangle: %d\n",perimeter);
 
-/* not sure how to complete this question */
+return 0;
 
 }
